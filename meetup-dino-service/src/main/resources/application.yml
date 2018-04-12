@@ -1,0 +1,12 @@
+spring: 
+  application: 
+    name: meetup-gateway-service
+
+security:
+  basic:
+    enabled: false
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://eureka-f560953d-50b5-49e9-8105-13ad19ccef34.cfapps.io

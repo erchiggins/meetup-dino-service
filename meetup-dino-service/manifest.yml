@@ -1,0 +1,9 @@
+applications:
+  - name: meetup-dino-service
+    memory: 700M
+    instances: 1
+    buildpack: https://github.com/cloudfoundry/java-buildpack.git
+    path: target/meetup-dino-service-0.0.1-SNAPSHOT.jar
+    services:
+      - MeetupDiscovery
+      
