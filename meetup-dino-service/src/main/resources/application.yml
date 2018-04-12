@@ -1,10 +1,16 @@
 spring: 
   application: 
     name: meetup-gateway-service
-
+  h2:
+    console:
+      enabled: true
+      
 security:
   basic:
     enabled: false
+    
+server:
+  port: 8888
     
 eureka:
   client:
