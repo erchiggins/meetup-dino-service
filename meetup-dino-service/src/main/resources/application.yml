@@ -9,9 +9,6 @@ security:
   basic:
     enabled: false
     
-server:
-  port: 8888
-    
 eureka:
   client:
     serviceUrl:
